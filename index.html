@@ -1,11 +1,3 @@
-<!-- 
-    1. Thư mục image sai tên
-    2. Tên file không để dấu gạch dưới ở đằng trước
-    3. Không để các tên vô nghĩa: imagecontent, anh1, anh2, image1, image2, anh (1), anh (2)
-    4. Để tên file dạng kebab-case => google để tìm hiểu thêm
-    5. Kiểm tra lại toàn bộ quy tắc đặt tên BEM
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,18 +10,15 @@
 
 <body>
     <div class="header">
-        <!-- header__logo chứ ko phải header_logo => Kiểm tra lại quy tắc đặt tên BEM ? -->
         <image class="header__logo" src="image/logo.svg" alt="logo"></image>
         <div class="header__link">
             <a style="margin-right: 10px;" href="index.html" class="header__link--title">En</a>
-            <!-- Đây phải là thẻ anchor chứ ko phải thẻ div -->
             <a style="text-decoration: none; margin-right: 20px;" href="http://google.com"
                 class="header__link--title">Es</a>
         </div>
     </div>
     <div class="nav">
         <h1 class="nav__title">From Portland<br>to Portland</h1>
-        <!-- Không đặt tên class gợi ý tới các thẻ, ví dụ nav_h1, image_2, image2, content1 là cách đặt tên SAI -->
         <div class="nav__content">An epic bicycle journey from Portland, ME. to Portland, OR</div>
         <image class="nav__content--image" src="image/kalegin-michail-179870.svg"></image>
         <div class="nav__content--contentend">Your journey starts here</div>
@@ -95,13 +84,12 @@
             <div class="content__head--title">New Hampshire</div>
             <div class="content__head--url">
                 <h6 class="content__head--URL">URL</h6>
-                <a class="content__head--link"
-                    href="https://www.timberland.com/timberlandpro.html">global.llbean.com</a>
+                <a class="content__head--link" href="https://www.timberland.com/timberlandpro.html">timberland.com</a>
             </div>
         </div>
 
         <div class="content__body">
-            <image class="content__body--img" src="image/image_content/New_Hampshire.svg" alt="New Hampshire"></image>
+            <image class="content__body--img" src="image/image_content/New_Hampshire.svg" alt="New_Hampshire"></image>
             <p class="content__body--introduce">Not only famous for “The Big Apple,” the state of NY also has several
                 other reasons
                 for going down in history. Since the late 1800s Schenectady, “The City that Lights and Hauls the World,”
@@ -183,7 +171,8 @@
 
     <div class="cover">
         <div class="cover__title">
-            <a href="https://www.nps.gov/nr/travel/route66/maps66.html" class="cover__title--router66">Historic Route 66</a>
+            <a href="https://www.nps.gov/nr/travel/route66/maps66.html" class="cover__title--router66">Historic Route
+                66</a>
             <div class="cover__title--subtitle">The Main Street of America from<br> Santa Monica, Cal. to Chicago, Ill.
             </div>
         </div>
